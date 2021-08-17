@@ -1,0 +1,50 @@
+.update_todo {
+    max-height: 500px;
+    width: 400px;
+    background: var(--primary-white);
+}
+.update_todo > header {
+    padding: 15px 10px;
+    border-bottom: 1px solid var(--light-grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.close_button {
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+}
+.update_todo > header > h3 {
+    margin: 0;
+}
+.update_todo > section  {
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input_field > label {
+    font-size: 14px;
+}
+.update_todo > footer {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    border-top: 1px solid var(--light-grey);
+}
+
+.button {
+    padding: 8px 10px;
+    background: var(--primary-white);
+    border: none;
+}
+
+.submit_button {
+    border: 1px solid var(--primary-grey);
+    font-weight: bold;
+}
+.submit_button:disabled {
+    border: 1px solid var(--light-grey);
+}

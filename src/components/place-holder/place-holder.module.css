@@ -1,0 +1,16 @@
+.place_holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.placeholder_img {
+    height: 50%;
+}
+
+.place_holder>p {
+    font-weight: bold;
+    margin-top: 20px;
+}

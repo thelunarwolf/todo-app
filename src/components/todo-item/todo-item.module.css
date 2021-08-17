@@ -1,0 +1,53 @@
+.todo_item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+    /* width: 400px;
+    max-width: 400px; */
+    background-color: var(--primary-white);
+    border-bottom: 1px solid var(--light-grey);
+    border-left: 5px solid var(--primary-white);
+}
+
+.todo_item:hover {
+    border-left: 5px solid var(--primary-blue);
+}
+
+.drag_option {
+    cursor: move;
+}
+
+.text_area {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text_area > p {
+    text-align: left;
+}
+
+.text_area > h4 {
+    margin: 0;
+}
+
+.edit_icons {
+    display: flex;
+    gap: 10px;
+    color: var(--primary-grey);
+    cursor: pointer;
+}
+
+.edit_icons > * {
+    display: none;
+}
+
+.todo_item:hover .edit_icons > * {
+    display: block;
+}

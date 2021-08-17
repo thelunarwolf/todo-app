@@ -1,0 +1,28 @@
+.input_fld {
+    box-sizing: border-box;
+    outline: none;
+    font-size: 15px;
+    /* color: var(--primary-white); */
+    width: 100%;
+    border: none;
+    background: inherit;
+}
+
+.input_container {
+    display: flex;
+    align-items: center;
+    border-bottom: var(--primary-grey) 1px solid;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.clear_ic {
+    color: var(--secondary-grey);
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: var(--primary-grey);
+}
